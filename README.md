@@ -10,7 +10,6 @@
 
 - `.mcp.json`: the MetricRaven MCP server, `https://metricraven.com/api/mcp` (remote, HTTPS). It is the same server as the MetricRaven connector in Claude's directory, so if you have both you see one set of tools.
 - `skills/get-started`: tells Claude which MetricRaven tools to use for charts, numbers, goals and funnels, the default period, and to ask before making any change.
-- `assets/icon.png`: the listing icon.
 
 The plugin contains no scripts, hooks or local servers. It runs nothing on your computer.
 
