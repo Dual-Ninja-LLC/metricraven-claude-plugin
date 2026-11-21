@@ -14,12 +14,16 @@ You need a MetricRaven account with a website: sign up at https://metricraven.co
 
 ## Install
 
-Claude Code, from a clone of this repository (for the current session):
+Claude Code (this repository is also a plugin marketplace):
 
-```sh
-git clone https://github.com/Dual-Ninja-LLC/metricraven-claude-plugin
-claude --plugin-dir ./metricraven-claude-plugin
 ```
+/plugin marketplace add Dual-Ninja-LLC/metricraven-claude-plugin
+/plugin install metricraven@metricraven
+```
+
+From a shell: `claude plugin marketplace add Dual-Ninja-LLC/metricraven-claude-plugin`, then
+`claude plugin install metricraven@metricraven`. To try it for one session from a clone instead:
+`claude --plugin-dir ./metricraven-claude-plugin`.
 
 Without the plugin, you can add the same MCP server yourself:
 

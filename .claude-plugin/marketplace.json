@@ -1,0 +1,16 @@
+{
+  "name": "metricraven",
+  "owner": {
+    "name": "Dual Ninja LLC",
+    "email": "support@metricraven.com",
+    "url": "https://metricraven.com"
+  },
+  "description": "MetricRaven: privacy-friendly web analytics with revenue attribution.",
+  "plugins": [
+    {
+      "name": "metricraven",
+      "source": "./",
+      "description": "Ask about traffic, revenue, channels, pages, goals and funnels, and see interactive charts."
+    }
+  ]
+}
